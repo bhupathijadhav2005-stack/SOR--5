@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""
-custom_ik_mover.py
-Session-5 Q2 Part B - Math to the Rescue (Custom Inverse Kinematics)
-
 Bypasses MoveIt 2 entirely. Computes joint angles for a target end-effector
 coordinate using the closed-form 4-DOF IK derived in Part A, then publishes
 a JointTrajectory message straight to the arm's joint_trajectory_controller.
