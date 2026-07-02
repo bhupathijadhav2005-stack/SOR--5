@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-"""
-waypoint_patroller.py
-Session-5 Q1 - The Automated Patroller (Nav2 Waypoints)
-
-Custom ROS 2 node that dispatches the robot through a hardcoded sequence
-of at least three waypoints using the Nav2 FollowWaypoints action.
-
-Author: Badavath Bhupathi (24B4218)
-"""
-
 import math
 
 import rclpy
